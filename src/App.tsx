@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FiPlus } from 'react-icons/fi';
 import type { Todo } from './types/Todo';
 import { useTodos } from './hooks/useTodos';
