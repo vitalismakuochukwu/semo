@@ -92,7 +92,7 @@ const App = () => {
                       <th className="p-4 font-bold">Category</th>
                       <th className="p-4 font-bold">When</th>
                       <th className="p-4 font-bold">Priority</th>
-                      <th className="p-4 font-bold">Fullfilment</th>
+                      <th className="p-4 font-bold">Fullfillment</th>
                       <th className="p-4 w-20"></th>
                     </tr>
                   </thead>

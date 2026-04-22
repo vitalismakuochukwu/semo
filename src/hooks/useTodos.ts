@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import type { Todo } from '../types/Todo';
+import type  { Todo } from '../types/Todo';
 
 export const useTodos = () => {
-  const [todos, setTodos] = useState<Todo[]>(() => {
+  const [todos, setTodos] = useState<any[]>(() => {
     try {
       const saved = localStorage.getItem('react-todos');
       const parsed = saved ? JSON.parse(saved) : [];
